@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './markdown.css';
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+}
+
+code {
+  font-family: ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', 'Liberation Mono',
+    Menlo, Monaco, Consolas, monospace;
+  color: #c9d1d7;
+}
+
+pre {
+  background-color: #161b22;
+}
+
+button {
+  outline: none;
+}
